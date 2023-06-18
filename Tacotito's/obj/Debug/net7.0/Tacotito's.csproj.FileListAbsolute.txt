@@ -1,0 +1,30 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.deps.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\refint\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\ref\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.runtimeconfig.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Diseño e Implementacion de Sistemas\curso-principios-solid-csharp\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.genruntimeconfig.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.deps.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.runtimeconfig.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\refint\Tacotito's.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.genruntimeconfig.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\ref\Tacotito's.dll
