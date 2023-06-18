@@ -10,7 +10,7 @@ namespace Tacotito_s.Factory
 {
     internal interface IFactoryMethod
     {       
-            IIngrediente GetCreation(TipoCreacion producto);
+            IIngrediente GetCreation(TipoCreacion producto, string nombre, double precio);
         
     }
 }

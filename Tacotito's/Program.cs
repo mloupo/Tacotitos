@@ -30,9 +30,9 @@ namespace Tacotito_s
      */
 
             FactoryIngrediente fabrica = new FactoryIngrediente();
-            IIngrediente tortilla = fabrica.GetCreation(Enums.TipoCreacion.Tortilla);
-            IIngrediente relleno = fabrica.GetCreation(Enums.TipoCreacion.Relleno);
-            IIngrediente salsa = fabrica.GetCreation(Enums.TipoCreacion.Salsa);
+            IIngrediente tortilla = fabrica.GetCreation(Enums.TipoCreacion.Tortilla, "Maiz", 135.50);
+            IIngrediente relleno = fabrica.GetCreation(Enums.TipoCreacion.Relleno, "Maria Juana", 905.75);
+            IIngrediente salsa = fabrica.GetCreation(Enums.TipoCreacion.Salsa, "Cheddar", 110.50);
             List<IIngrediente> creations = new List<IIngrediente>();
             creations.Add(tortilla);
             creations.Add(relleno);
