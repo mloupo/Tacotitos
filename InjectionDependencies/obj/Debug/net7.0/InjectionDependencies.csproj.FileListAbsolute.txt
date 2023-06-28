@@ -1,0 +1,15 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\bin\Debug\net7.0\InjectionDependencies.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\bin\Debug\net7.0\InjectionDependencies.deps.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\bin\Debug\net7.0\InjectionDependencies.runtimeconfig.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\bin\Debug\net7.0\InjectionDependencies.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\bin\Debug\net7.0\InjectionDependencies.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\refint\InjectionDependencies.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\InjectionDependencies.genruntimeconfig.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\InjectionDependencies\obj\Debug\net7.0\ref\InjectionDependencies.dll

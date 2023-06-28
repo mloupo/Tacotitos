@@ -1,0 +1,15 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.Model.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.Model.deps.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.Model.runtimeconfig.json
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.Model.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\bin\Debug\net7.0\Tacotito's.Model.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.AssemblyInfoInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.AssemblyInfo.cs
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\refint\Tacotito's.Model.dll
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\Tacotito's.Model.genruntimeconfig.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's\obj\Debug\net7.0\ref\Tacotito's.Model.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\Tacotito's\\Tacotito's\\Tacotito's.csproj",
-      "projectName": "Tacotito's",
-      "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\Tacotito's\\Tacotito's\\Tacotito's.csproj",
+      "projectUniqueName": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\Tacotito's\\Tacotito's\\Tacotito's.Model.csproj",
+      "projectName": "Tacotito's.Model",
+      "projectPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\Tacotito's\\Tacotito's\\Tacotito's.Model.csproj",
       "packagesPath": "C:\\Users\\Zen\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Zen\\ITEC\\AnalistaProgramador\\3er\\Practica Profesional\\Tacotito's\\Tacotito's\\obj\\",
       "projectStyle": "PackageReference",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

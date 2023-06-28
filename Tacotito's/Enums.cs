@@ -9,7 +9,7 @@ namespace Tacotito_s
     public static class Enums
     {  
         public enum TipoCreacion { Tortilla, Relleno, Salsa, Taco}
-        
+        public enum articuloSuper { Azucar, Cafe, Queso, Rollo, Cocina, PapelHigienico, Arroz, CaldoVerduras, Jugos, Alcohol, Prepizza, CarnePicada, MilanesasPollo, Pechugas, Morron, Hamburguesas }
 
         [Flags]
         public enum Condimentos { nada = 0, Tomate = 1, Lechuga = 2, Cebolla = 4, Queso = 8 }

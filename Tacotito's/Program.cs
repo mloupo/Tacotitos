@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Tacotito_s.Controllers;
 using Tacotito_s.Factory;
 
 namespace Tacotito_s
@@ -29,10 +31,11 @@ namespace Tacotito_s
             listaIngredientes.Add(relleno5);
      */
 
-            FactoryIngrediente fabrica = new FactoryIngrediente();
-            IIngrediente tortilla = fabrica.GetCreation(Enums.TipoCreacion.Tortilla, "Maiz", 135.50);
-            IIngrediente relleno = fabrica.GetCreation(Enums.TipoCreacion.Relleno, "Maria Juana", 905.75);
-            IIngrediente salsa = fabrica.GetCreation(Enums.TipoCreacion.Salsa, "Cheddar", 110.50);
+        /*    CreationsController cont = new CreationsController();
+
+            IIngrediente tortilla = cont.Create(Enums.TipoCreacion.Tortilla, "Maiz", 135.50);
+            IIngrediente relleno = cont.Create(Enums.TipoCreacion.Relleno, "Maria Juana", 905.75);
+            IIngrediente salsa = cont.Create(Enums.TipoCreacion.Salsa, "Cheddar", 110.50);
             List<IIngrediente> creations = new List<IIngrediente>();
             creations.Add(tortilla);
             creations.Add(relleno);
@@ -52,9 +55,18 @@ namespace Tacotito_s
             Console.WriteLine("Taco Nro: " + taco3.MyId);
             taco3.PrecioToString();
             taco3.Ingredientes();
-
             Console.ReadLine();
+        */
 
+            string frase = "Beautiful is better than ugly.\r\nExplicit is better than implicit.\r\nSimple is better than complex.\r\nComplex is better than complicated.\r\nFlat is better than nested.\r\nSparse is better than dense.\r\nReadability counts.\r\nSpecial cases aren't special enough to break the rules.\r\nAlthough practicality beats purity.\r\nErrors should never pass silently.\r\nUnless explicitly silenced.\r\nIn the face of ambiguity, refuse the temptation to guess.\r\nThere should be one-- and preferably only one --obvious way to do it.\r\nAlthough that way may not be obvious at first unless you're Dutch.\r\nNow is better than never.\r\nAlthough never is often better than *right* now.\r\nIf the implementation is hard to explain, it's a bad idea.\r\nIf the implementation is easy to explain, it may be a good idea.\r\nNamespaces are one honking great idea -- let's do more of those!";
+            Console.WriteLine(frase);
+            //string patron = "[better]";
+            string patron2 = @"\d{3}";
+            Regex miRegex = new Regex(patron2);
+            MatchCollection elMatch = miRegex.Matches(frase);
+            if (elMatch.Count > 0) Console.WriteLine($"Se ha encontrado ...{patron2}");
+            else Console.WriteLine("No se ha encontrado"); 
+            Console.ReadLine();
         }
     }
 }

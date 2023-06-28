@@ -29,7 +29,7 @@ namespace Tacotito_s
 
         public override string? ToString()
         {
-            return this.GetType() + " Nro: " + MyId +" de "+ Name + ", Precio: " + Precio_unitario;
+            return this.GetType().Name + " Nro: " + MyId +" de "+ Name + ", Precio: " + Precio_unitario;
         }
 
 

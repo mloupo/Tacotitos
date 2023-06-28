@@ -1,0 +1,8 @@
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\obj\Debug\ModeloLinq.csproj.AssemblyReference.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\obj\Debug\ModeloLinq.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\obj\Debug\ModeloLinq.csproj.CoreCompileInputs.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
