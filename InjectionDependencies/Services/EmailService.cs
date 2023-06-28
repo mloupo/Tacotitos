@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InjectionDependencies.Services
 {
-    public class EmailService
+    public class EmailService : ISender
     {
         public void Send (Customer customer, string message)
         {

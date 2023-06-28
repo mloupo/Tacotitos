@@ -15,3 +15,4 @@ C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacoti
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's.Views\obj\Debug\net7.0-windows\ref\Tacotito's.Views.dll
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's.Views\obj\Debug\net7.0-windows\Tacotito_s.Views.Vista1.resources
 C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's.Views\obj\Debug\net7.0-windows\Tacotito's.Views.csproj.GenerateResource.cache
+C:\Users\Zen\ITEC\AnalistaProgramador\3er\Practica Profesional\Tacotito's\Tacotito's.Views\obj\Debug\net7.0-windows\Tacotito_s.Views.frmRoot.resources

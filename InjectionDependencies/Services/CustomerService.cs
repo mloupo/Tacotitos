@@ -9,10 +9,11 @@ namespace InjectionDependencies.Services
 {
     public class CustomerService
     {
-        private CustomerRepository _repository;
-        public CustomerService()
+        private IRepository _repository;
+        
+        public CustomerService(IRepository repository)
         {
-            _repository = new CustomerRepository();
+            _repository = repository;
         }
 
         public List<Customer> GetCustomers()

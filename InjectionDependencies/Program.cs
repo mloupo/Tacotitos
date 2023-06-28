@@ -1,4 +1,5 @@
-﻿using InjectionDependencies.Services;
+﻿using InjectionDependencies.Repositories;
+using InjectionDependencies.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,12 @@ namespace InjectionDependencies
     {
         static void Main(string[] args)
         {
-            var CustomerService = new CustomerService();
-            var communicatonService = new CommunicationService();
+            ISender sender = new SMSService();
+            IDbConnection connection = new MySQLConnection();
+            IRepository repository = new CustomerRepository(connection);
+
+            var CustomerService = new CustomerService(repository);
+            var communicatonService = new CommunicationService(sender);
 
             var customers = CustomerService.GetCustomers();
             var message = " Message to broadcast to all customers";

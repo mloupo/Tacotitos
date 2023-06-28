@@ -8,15 +8,15 @@ namespace InjectionDependencies.Services
 {
     public class CommunicationService
     {
-        private EmailService _emailService;
-        public CommunicationService()
+        private ISender _sender;
+        public CommunicationService(ISender sender)
         {
-            _emailService = new EmailService();
+            _sender = sender;
         }
 
         public void SendMessage(Customer customer, string message)
         {
-            _emailService.Send(customer, message);
+            _sender.Send(customer, message);
         }
     }
 }

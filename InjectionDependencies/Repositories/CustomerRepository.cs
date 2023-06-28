@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace InjectionDependencies.Repositories
 {
-    public class CustomerRepository
+    public class CustomerRepository : IRepository
     {
-        private MySQLConnection _conection;
-        public CustomerRepository()
+        private IDbConnection _conection;
+        public CustomerRepository(IDbConnection connection)
         {
-            _conection= new MySQLConnection();
+            _conection = connection;
         }
         public List<Customer> GetCustomers() //Renombrar a GetAll()
         {
             if (_conection.GetType() == typeof(MySQLConnection))
                 Console.WriteLine("Get Customers from MySQL");
+            else if (_conection.GetType() == typeof(OracleConnection))
+                Console.WriteLine("Get Customers from Oracle");
 
             return new List<Customer>
             {

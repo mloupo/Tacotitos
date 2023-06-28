@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InjectionDependencies.Repositories
 {
-    public class MySQLConnection
+    public class MySQLConnection : IDbConnection
     {
     }
 }
