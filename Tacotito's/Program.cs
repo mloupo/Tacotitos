@@ -9,12 +9,17 @@ namespace Tacotito_s
 {
 	internal class Program
 	{
+		static void MostrarListaTacos(List<Taco> listaTacos)
+		{
+			foreach (var taco in listaTacos)
+			{
+				Console.WriteLine("\n-----------------------------------------------------------");
+				taco.Info();
+			}
+		}
 		static void Main() 
 		{ 
-
-			var ListaIngredientes = new List<IIngrediente>();
 			CreationsController cont = new();
-
 
 			IIngrediente Maiz = cont.Create(Enums.TipoCreacion.Tortilla, "Maiz", 135.50);
 			IIngrediente Trigo = cont.Create(Enums.TipoCreacion.Tortilla, "Trigo", 120.5);
@@ -31,33 +36,43 @@ namespace Tacotito_s
 			IIngrediente Cheddar = cont.Create(Enums.TipoCreacion.Salsa, "Cheddar", 110.50);
 			IIngrediente Tempura = cont.Create(Enums.TipoCreacion.Salsa, "Tempura", 135.50);
 
-			ListaIngredientes.Add(Maiz);
-			ListaIngredientes.Add(Trigo);
-
-			ListaIngredientes.Add(CannabisSativa);
-			ListaIngredientes.Add(PsilocybeCubensis);
-			ListaIngredientes.Add(HericiumErinaceus);
-			ListaIngredientes.Add(Carne);
-			ListaIngredientes.Add(Pollo);
-			ListaIngredientes.Add(Cerdo);
-			ListaIngredientes.Add(Queso);
-
-			ListaIngredientes.Add(Wacamole);
-			ListaIngredientes.Add(Cheddar);
-			ListaIngredientes.Add(Tempura);
-
+			List<IIngrediente> ListaIngredientes = new()
+			{
+				Maiz, Trigo,
+				CannabisSativa,
+				PsilocybeCubensis,
+				HericiumErinaceus,
+				Carne, Pollo, Cerdo,
+				Queso, Wacamole,
+				Cheddar, Tempura
+			};
+			
 			var taco1 = new Taco(ListaIngredientes);
 			var taco2 = new Taco(ListaIngredientes);
 			var taco3 = new Taco(ListaIngredientes);
+
+			List<Taco> ListaTacos = new ()
+			{
+				taco1,
+				taco2,
+				taco3
+			};
+			List<Taco> ListaTacosConIdMayorADos = ListaTacos.FindAll(t => t.MyId > 2);
 			int years = 1;
 			string msg = @$"Este evento,
 ocurrio hace {years} año{(years>1? "s" : "")}"; //interpolation + verbatim + operador ternario
 			Console.WriteLine(msg);
-			taco1.InfoTaco();
-			Console.WriteLine("-----------------------------------------------------------");
-			taco2.InfoTaco();
-			Console.WriteLine("-----------------------------------------------------------");
-			taco3.InfoTaco();			
+			
+
+
+			
+			MostrarListaTacos(ListaTacos);
+			MostrarListaTacos(ListaTacosConIdMayorADos);
+
+		
+
+
+
 			Console.ReadLine();
 
 /*
@@ -91,7 +106,7 @@ ocurrio hace {years} año{(years>1? "s" : "")}"; //interpolation + verbatim + op
 			else Console.WriteLine("No se ha encontrado");
 			Console.ReadLine();
 */
-		}
+		}		
 	}
 }
 

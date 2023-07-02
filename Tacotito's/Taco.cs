@@ -10,9 +10,9 @@ namespace Tacotito_s
     internal class Taco
     {
         private static int TotalTacos = 1;
-        private int myId;
+		private readonly int myId;
         private readonly List<IIngrediente> IngredientesTaco = new();
-        private readonly DateTime CreatedAt;
+        public readonly DateTime CreatedAt;
         public int MyId
         {
             get { return myId; }
@@ -53,7 +53,7 @@ namespace Tacotito_s
                 Console.WriteLine(Ingrediente.ToString());
             }
         }
-         public void InfoTaco ()
+         public void Info ()
         {
 			Console.WriteLine($"\nTaco Nro: {MyId}");			
             Console.WriteLine($"Creado: {CreatedAt,50:D}");
