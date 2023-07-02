@@ -10,11 +10,11 @@ namespace Tacotito_s.PruebasPrevias.OC
 {
     public class ClientProgram
     {
-        public static void Main(string[] args)
+      /*  public static void Main(string[] args)
         {
             List<Order> orders = new List<Order>(); //Get orders from data source
             ReportingService service = new ReportingService(new ReportGeneratorJson()); //Send implementation
             service.GenerateReport(orders);
-        }        
+        } */       
     }
 }

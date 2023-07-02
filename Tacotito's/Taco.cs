@@ -9,10 +9,10 @@ namespace Tacotito_s
 {
     internal class Taco
     {
-        private static int ID = 0;
-        private int myId = 0;
-        private List<IIngrediente> IngredientesTaco = new List<IIngrediente>();
-
+        private static int TotalTacos = 1;
+        private int myId;
+        private readonly List<IIngrediente> IngredientesTaco = new();
+        private readonly DateTime CreatedAt;
         public int MyId
         {
             get { return myId; }
@@ -20,15 +20,16 @@ namespace Tacotito_s
 
         public Taco(List<IIngrediente> lista)
         {
-            ID++;
-            this.myId = ID;
-            IngredientesTaco = lista;          
+            CreatedAt = DateTime.Now;
+			myId = TotalTacos;
+			TotalTacos++;
+			IngredientesTaco = lista;          
         }      
 
         public double Precio()
         {
             double PrecioTaco = 0;
-            foreach (Ingrediente Ingred in IngredientesTaco)
+            foreach (Ingrediente Ingred in IngredientesTaco.Cast<Ingrediente>())
             {
                 PrecioTaco += Ingred.Precio_unitario;
             }
@@ -37,21 +38,28 @@ namespace Tacotito_s
         public void PrecioToString()
         {
             double PrecioTaco = 0;
-            foreach (Ingrediente Ingred in IngredientesTaco)
+            foreach (Ingrediente Ingred in IngredientesTaco.Cast<Ingrediente>())
             {
                 PrecioTaco += Ingred.Precio_unitario;
             }
-            Console.WriteLine(PrecioTaco);
+            Console.WriteLine($"\nTotal a Pagar: {PrecioTaco,40}");
         }
 
-        public void Ingredientes()
+
+		private void Ingredientes()
         {
             foreach (IIngrediente Ingrediente in IngredientesTaco)
             {
                 Console.WriteLine(Ingrediente.ToString());
             }
         }
-
+         public void InfoTaco ()
+        {
+			Console.WriteLine($"\nTaco Nro: {MyId}");			
+            Console.WriteLine($"Creado: {CreatedAt,50:D}");
+			Ingredientes();
+            PrecioToString();
+		}
 
     }
 }

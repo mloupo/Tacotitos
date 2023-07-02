@@ -1,4 +1,5 @@
-﻿using Tacotito_s.Factory;
+﻿using System.Timers;
+using Tacotito_s.Factory;
 
 namespace Tacotito_s
 {
@@ -10,12 +11,15 @@ namespace Tacotito_s
         public double Precio_unitario { get => _precio_unitario; init => _precio_unitario = value; }
         public string Name { get => _name; init => _name = value; }
         private static int ID = 0;
-        private int myId = 0;
+        private readonly int myId = 0;
 
         public int MyId
         {
             get { return myId; }
         }
+        /// <summary>
+        /// Incializacion de Ingrediente. Asigna un Id unico.
+        /// </summary>
         public Ingrediente()
         {
             ID++;
@@ -29,11 +33,12 @@ namespace Tacotito_s
 
         public override string? ToString()
         {
-            return this.GetType().Name + " Nro: " + MyId +" de "+ Name + ", Precio: " + Precio_unitario;
+            return this.GetType().Name + DatosIngrediente();
         }
 
-
-
-
-    }
+        public string DatosIngrediente()
+        {
+            return $" Nro: {MyId} de {Name}, Precio: {Precio_unitario}";
+        }
+	}
 }
